@@ -35,6 +35,7 @@ public class SearchTestCases {
     }
     @Test
     public void check_search_with_spaces() throws InterruptedException {
+        //
         driver.findElement(By.name("name")).sendKeys("sh oes");
         driver.findElement(By.xpath("//*[@class='input-group-append']")).click();
         Thread.sleep(5000);
