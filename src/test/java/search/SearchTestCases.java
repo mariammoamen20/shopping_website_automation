@@ -12,7 +12,7 @@ public class SearchTestCases {
     @BeforeMethod
     public void setUp(){
         driver = new ChromeDriver();
-        driver.get("https://khlodmart.sahl.store/ar");
+        driver.get("");
     }
     @Test
     public void check_search_with_empty_data() throws InterruptedException {
